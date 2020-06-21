@@ -1,0 +1,28 @@
+
+h1
+{
+color:blue;
+border:150px solid blue;
+} 
+.purple-text {
+  color:blue;
+}
+
+body{
+background-color:pink;
+font-family:monospace;
+font-size:20px;
+}
+p{
+  color:black;
+  font-size:20px;
+  font-family:Helvetica;
+}
+
+.larger-image {
+  width: 200px;
+  border-color: green;
+  border-width: 10px;
+  border-style: solid;
+}
+
