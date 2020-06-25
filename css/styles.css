@@ -1,38 +1,50 @@
 
 h1
 h3 {
-  text-align: center;
+  text-align: left;
 } 
 
 .blue-text {
-  color:yellow;
+  color:blue;
+  font-size:40px;
+  font-style: oblique;
 }
 
 div {
-    background-image: url("images/background.jpg");
+  background-image: url("images/background.jpg");
 }
 
-body
+.header
 {
-  background-image: url("images/background.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color:yellow;
-  font-family:monospace;
-  font-size:25px;
-
+  background-image: linear;
+  background-size: cover;
+  background-position:center;
+  height: 150vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  margin:0;
+  padding:0;
 }
 
 p{
-  color:yellow;
+  color: black;
   font-size:20px;
-  font-family:Helvetica;
+  font-family:"sans-serif";
+  font-style: normal;
 }
 
+h1
+{
+  color: blue;
+  font-size:20px;
+  font-family:"sans-serif";
+  font-style: oblique;
+}
 .larger-image {
   width: 200px;
-  border-color: greenyellow;
+  border-color: royalblue;
   border-width: 10px;
   border-style: solid;
   border-radius:10%;
